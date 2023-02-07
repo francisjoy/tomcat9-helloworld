@@ -5,14 +5,14 @@ app:
 
 build:
   version: 0.3
-  env: DEV
+  env: POC
   build_file: pom.xml
   output_files: output/*.war
   image_template: tomcat9
 
 deploy:
-  context: alpha/DEV
-  replicas: 2
+  context: ashield/POC
+  replicas: 1
   port: 
    - 8080
 
