@@ -6,7 +6,7 @@ app:
 build:
   version: 0.3
   env: POC
-  build_file: pom.xml
+  build_file: none
   output_files: output/*.war
   image_template: tomcat9
 
